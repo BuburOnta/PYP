@@ -1,6 +1,58 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
+.App {
+  /* text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  flex-direction: column;
+  
+  color: black; */
+  width: 900px;
+  box-sizing: border-box;
+
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.hamburger-menu {
+  /* display: none; */
+}
+@media screen and (max-width: 576px) {
+  .App {
+    width: 100%;
+    width: 100%;
+    padding: 0 20px;
+    /* overflow: unset; */
+  }
+
+  .hamburger-menu {
+    display: unset;
+  }
+}
+
+.topLeftBg {
+  width: 406px;
+  position: absolute;
+  left: -197px;
+  top: -93px;
+  z-index: -1;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.activeBlur {
+  filter: blur(1px);
+}
+nav.nav .right .demo {
+  
+}
+
 
 .App-logo {
   height: 40vmin;

@@ -1,0 +1,84 @@
+.footer {
+    width: 100%;
+    height: 663px;
+    margin-left: -20px;
+    margin-top: 35px;
+    padding: 20px;
+    background-color: #A69B7B;
+
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+}
+.footer h1 {
+    font-size: 13px;
+}
+.footer img {
+}
+
+.footer .card.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+}
+.footer .card.logo h1 {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+.footer .card.alamat {
+    font-size: 10px;
+    text-align: center;
+    width: 238px;
+}
+
+.footer .card_group {
+    display: grid;
+    grid-template-areas: 
+    "satu dua"
+    "tiga empat";
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    /* width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px; */
+    gap: 20px;
+}
+.footer .card_group .card.satu {
+    grid-area: satu;
+}
+.footer .card_group .card.dua {
+    grid-area: dua;
+}
+.footer .card_group .card.tiga {
+    grid-area: tiga;
+}
+.footer .card_group .card.empat {
+    grid-area: empat;
+}
+.footer .card_group .card li {
+    font-weight: 300;
+}
+.footer .card_group .card h1 {
+    margin-bottom: 5px;
+}
+
+
+.footer .kontak {
+    font-size: 30px;
+}
+.footer .kontak i {
+    margin-right: 20px;
+}
+
+.footer .foot {
+    font-weight: 600;
+    text-align: center;
+}

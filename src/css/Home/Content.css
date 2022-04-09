@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 149px;
+    background-color: #9A9483;    
+    border-radius: 10px;
+    
+    margin-bottom: 27px;
+}
+
+.content h1 {
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 21px;
+
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px #555555;
+}
+.content img.contentIcon {
+    width: 56px;
+}
