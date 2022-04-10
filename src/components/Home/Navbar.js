@@ -1,6 +1,6 @@
 import { icon } from "@fortawesome/fontawesome-free-solid";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import logo from "./../../img/tFlow-logo.svg";
 import beranda from "./../../img/Navbar/Beranda.svg";
